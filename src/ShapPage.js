@@ -6,6 +6,7 @@ import { shaps } from "./data";
 const ShapPage = () => {
   const { id } = useParams();
   const data = shaps.find(s => s.id === parseInt(id));
+  console.log("Shap ID:", id);  
 
   if (!data) return <p>الشقة غير موجودة</p>;
 

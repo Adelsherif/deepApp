@@ -7,6 +7,7 @@ function App() {
       <Routes>
         <Route path="/shap/:id" element={<ShapPage />} />
       </Routes>
+      adel
     </Router>
   );
 }
